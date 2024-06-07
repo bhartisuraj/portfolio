@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!-- Swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- BoxIcon Fonts -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- main file css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ============= Header ============= -->
+    <header id="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <p class="header_logo">Suraj Logo</p>
+          <!-- <img src="./image/logo.png" alt="" class="img-fluid" /> -->
+        </a>
+        <ul class="menu">
+          <li class="menu_item">
+            <a href="#hero" class="menu_link active-link">Home</a>
+          </li>
+          <li class="menu_item">
+            <a href="#about" class="menu_link">About</a>
+          </li>
+          <li class="menu_item">
+            <a href="#resume" class="menu_link">Resume</a>
+          </li>
+          <li class="menu_item">
+            <a href="#portfolio" class="menu_link">Portfolio</a>
+          </li>
+          <li class="menu_item">
+            <a href="#services" class="menu_link">Services</a>
+          </li>
+          <li class="menu_item">
+            <a href="#contact" class="menu_link">Contact</a>
+          </li>
+          <ion-icon name="close-outline" class="close_icon"></ion-icon>
+        </ul>
+        <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============= Hero Section ============= -->
+
+      <section class="hero section" id="hero">
+        <div class="hero_container container grid">
+          <div class="hero_content">
+            <h4>HI, THERE</h4>
+            <h1>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer" ></span>
+            </h1>
+            <p>
+              I'm creative designer based in Mumbai, and I'm very passionate
+              and dedicate to my work.
+            </p>
+            <div class="hero_social">
+              <a href="#"><ion-icon name="logo-dribbble"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+            <a href="#contact" class="btn">Read More
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="hero_img">
+            <img src="./image/image.png" alt="hero_img" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= About Section ============= -->
+
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+
+        <div class="about_container container grid">
+          <div class="about_img">
+            <img src="./image/about.png" alt="about" width="75%"/>
+          </div>
+          <div class="about_content">
+            <h1>I make a professional and creative design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate voluptatem facilis ea impedit eius, vitae vel amet
+              eveniet dolorum molestias dolorem accusantium perferendis debitis
+              nemo odio nisi quidem adipisci quibusdam! Beatae labore placeat
+              officia magnam quod neque sapiente molestiae quo, natus sint iste
+              atque repellat quam, a obcaecati expedita esse odit alias sequi.
+              Vero nemo recusandae similique cumque. Blanditiis, voluptate.
+            </p>
+            <div class="about_info">
+              <div>
+                <span class="number">200</span>
+                <br />
+                <span class="text">Completed <br />project</span>
+              </div>
+              <div>
+                <span class="number">120</span>
+                <br />
+                <span class="text">Positive <br />review's</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= Resume Section ============= -->
+
+      <section class="resume section" id="resume">
+        <h2 class="section_title">Resume</h2>
+
+        <div class="resume_container container grid">
+          <div class="resume_tabs">
+            <ul>
+              <li>
+                <a href="#page-1" class="current">Education</a>
+              </li>
+              <li>
+                <a href="#page-2">Experience</a>
+              </li>
+              <li>
+                <a href="#page-3">Skills</a>
+              </li>
+              <li>
+                <a href="#page-4">Awards</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume_content">
+            <div id="page-1" class="page one">
+              <div class="page_heading">Education</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-graduation-cap"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2014-2015</span>
+                  <h4>Bachelor in Computer Science</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-graduation-cap"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2015-2016</span>
+                  <h4>Diploma in Computer Science</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-graduation-cap"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2017-2018</span>
+                  <h4>Art & Creative Director</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+              
+            </div>
+            <div id="page-2" class="page two">
+              <div class="page_heading">Experience</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-suitcase-alt"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2014-2015</span>
+                  <h4>Software Developer</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-suitcase-alt"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2015-2016</span>
+                  <h4>Web Marketing</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-suitcase-alt"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2017-2018</span>
+                  <h4>UI/UX Designer</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+            </div>
+            <div id="page-3" class="page three">
+              <div class="page_heading">Skills</div>
+              <div class="progressBoxs grid">
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>CSS</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 80%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>JavaScript</span>
+                    <span>65%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 65%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>jQuery</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>Photoshop</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 85%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>Figma</span>
+                    <span>75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 75%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="page-4" class="page four">
+              <div class="page_heading">Awards</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-award"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2014-2015</span>
+                  <h4>Top 10 web Developer</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-award"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2015-2016</span>
+                  <h4>Top 5 LeaderShip Excellence Winner</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <i class="uil uil-award"></i>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2017-2018</span>
+                  <h4>Top 4 Web Tester</h4>
+                  <span class="position">Mansoura University</span>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem voluptatem vel consectetur sequi magnam ipsa modi laboriosam qui excepturi labore dolore voluptate quaerat, magni at quibusdam, suscipit dignissimos enim!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= Portfolio Section ============= -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+
+        <div class="portfolio_container container">
+          <ul class="portfolio_filters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Photographgy</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+
+          <div class="portfolio_wrap-container">
+            <div class="portfolio_item filter-web">
+              <div class="portfolio_wrap">
+                <img src='./image/web1.jpg' alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>Web 3</h4>
+                  <p>Web</p>
+                  <div class="portfolio_links">
+                    <a href="#"><i class="uil uil-plus"></i></a>
+                    <a href="#"><i class="uil uil-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio_item filter-app">
+              <div class="portfolio_wrap">
+                <img src='./image/app1.jpg' alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>App 1</h4>
+                  <p>App</p>
+                  <div class="portfolio_links">
+                    <a href="#"><i class="uil uil-plus"></i></a>
+                    <a href="#"><i class="uil uil-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio_item filter-app">
+              <div class="portfolio_wrap">
+                <img src='./image/app2.jpg' alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>App 2</h4>
+                  <p>App</p>
+                  <div class="portfolio_links">
+                    <a href="#"><i class="uil uil-plus"></i></a>
+                    <a href="#"><i class="uil uil-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio_item filter-card">
+              <div class="portfolio_wrap">
+                <img src='./image/photographgy1.jpg' alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>Photographgy1</h4>
+                  <p>Photographgy</p>
+                  <div class="portfolio_links">
+                    <a href="#"><i class="uil uil-plus"></i></a>
+                    <a href="#"><i class="uil uil-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio_item filter-card">
+              <div class="portfolio_wrap">
+                <img src='./image/photographgy2.jpg' alt="" class="img-fluid" ">
+                <div class="portfolio_info">
+                  <h4>Photographgy2</h4>
+                  <p>Photographgy</p>
+                  <div class="portfolio_links">
+                    <a href="#"><i class="uil uil-plus"></i></a>
+                    <a href="#"><i class="uil uil-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio_item filter-app">
+              <div class="portfolio_wrap">
+                <img src='./image/app3.jpg' alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>App 3</h4>
+                  <p>App</p>
+                  <div class="portfolio_links">
+                    <a href="#"><i class="uil uil-plus"></i></a>
+                    <a href="#"><i class="uil uil-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============= Testimonial Section ============= -->
+
+      <section class="testimonial section">
+        <h2 class="section_title">Testimonial</h2>
+
+        <div class="testimonial_container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe aliquid harum est corporis consequatur quod incidunt at quisquam velit!</p>
+              <div class="img_name">
+                <img src="./image/test1.jpg" alt="testimonial1">
+                <span class="name">Anna Smith</span>
+                <span class="post">Clients</span>
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe aliquid harum est corporis consequatur quod incidunt at quisquam velit!</p>
+              <div class="img_name">
+                <img src="./image/test2.jpg" alt="testimonial1">
+                <span class="name">Jhon Smith</span>
+                <span class="post">Clients</span>
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe aliquid harum est corporis consequatur quod incidunt at quisquam velit!</p>
+              <div class="img_name">
+                <img src="./image/test3.jpg" alt="testimonial1">
+                <span class="name">David Jhonson</span>
+                <span class="post">Clients</span>
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus saepe aliquid harum est corporis consequatur quod incidunt at quisquam velit!</p>
+              <div class="img_name">
+                <img src="./image/test1.jpg" alt="testimonial1">
+                <span class="name">Robert Willams</span>
+                <span class="post">Clients</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============= Services Section ============= -->
+      <section class="services section" id="services">
+        <h2 class="section_title">Services</h2>
+
+        <div class="services_container container grid">
+          <div class="services_item">
+            <i class="uil uil-window-grid"></i>
+            <h3 class="services_title">UI/UX <br>Designer</h3>
+            <span class="services_button">
+              View More <i class="uil uil-angle-right"></i>
+            </span>
+            <div class="services_modal">
+              <div>
+                <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                <h3 class="services_modal-title">UI/UX Designer</h3>
+                <p class="services_modal-description">Services with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                <ul>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I develop the user interface.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">Web page development.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I create ux element interaction.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I position your company brand.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">Design and mockup of products for companies.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services_item">
+            <i class="uil uil-window-grid"></i>
+            <h3 class="services_title">Frontend <br>Developer</h3>
+            <span class="services_button">View More <i class="uil uil-angle-right"></i></span>
+            <div class="services_modal">
+              <div>
+                <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                <h3 class="services_modal-title">Frontend Developer</h3>
+                <p class="services_modal-description">Services with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                <ul>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I develop the user interface.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">Web page development.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I create ux element interaction.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I position your company brand.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">Design and mockup of products for companies.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services_item">
+            <i class="uil uil-window-grid"></i>
+            <h3 class="services_title">Branding <br>Designer</h3>
+            <span class="services_button">View More <i class="uil uil-angle-right"></i></span>
+            <div class="services_modal">
+              <div>
+                <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                <h3 class="services_modal-title">Branding Designer</h3>
+                <p class="services_modal-description">Services with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                <ul>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I develop the user interface.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">Web page development.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I create ux element interaction.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">I position your company brand.</p>
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i>
+                    <p class="services_modal-info">Design and mockup of products for companies.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ============= Contact Section ============= -->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+
+        <div class="contact_container container">
+          <div class="contact_content">
+            <div class="inputs">
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+            </div>
+            <input type="password" placeholder="Password">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <a href="#" class="btn">Send Message
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+        
+      </section>
+
+      <!-- ============= Footer Section ============= -->
+      <footer>
+        <div class="footer_bg">
+          <div class="footer_container container">
+            <div class="main_footer">
+              <div class="footer_social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+              </div>
+              <h3>Header Text</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores blanditiis quod perferendis quidem quibusdam voluptatem quisquam dolore in at. &#10084;</p>
+            </div>
+            <div class="footer_copy">&#169; LineCode All right reserved</div>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <!-- typed js CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ionIcons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- iconScout -->
+    <script src="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/script/monochrome/bundle.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
